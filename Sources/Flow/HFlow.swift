@@ -18,7 +18,7 @@ import SwiftUI
 ///         }
 ///     }
 ///
-@available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+@available(iOS 14.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
 public struct HFlow<Content: View>: View {
     private let layout: HFlowLayout
     private let content: Content
